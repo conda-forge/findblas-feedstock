@@ -1,5 +1,5 @@
 {% set name = "findblas" %}
-{% set version = "0.1.21" %}
+{% set version = "0.1.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/findblas-{{ version }}.tar.gz
-  sha256: 20948bd32c45ddb42be379e657e415065562f0ae01092049daa5863801b1ab5e
+  sha256: 1fdb8214ab1c3122961e5e4f61f694a91e7e4a2ce3bfd1e6838e2dc46787f9b0
 
 build:
   noarch: python
